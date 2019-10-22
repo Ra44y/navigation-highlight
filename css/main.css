@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  display: inline-block;
   background-color: #fff;
   line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -36,10 +36,9 @@ h2 {
   font-size: 1.875rem;
 }
 
-ul {
-  margin: 0;
-  text-align: center;
-  font-family: Georgia, serif;
+.nav li {
+  display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav {
@@ -51,8 +50,14 @@ ul {
   text-align: center;
 }
 
-.nav li {
+a {
+  font-size: 1.125rem;
   display: inline-block;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: .2em .5em .3em;
 }
 
 .nav a {
@@ -80,21 +85,32 @@ figure {
   text-align: left;
 }
 
-article {
+.main-index, .main-blue, .main-grape, .main-red {
   display: inline-block;
-  background-color: #fff;
-  color: #2f2d13;
+  margin: 0;
+  padding: 0 .75em;
 }
 
 footer {
   background-color: #ffe500;
   padding: .2em .5em .3em;
 }
+
 p {
   text-align: left;
   margin: 0;
   padding-bottom: .75em;
   color: #2f2d13;
+}
+
+main {
+  display: inline-block;
+  margin: 0;
+  padding: 0 .75em;
+}
+
+.main-info b {
+  font-weight: bold;
 }
 
 footer p {
