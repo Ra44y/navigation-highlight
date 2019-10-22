@@ -9,15 +9,6 @@ html {
   box-sizing: inherit;
 }
 
-header {
-  border-style: solid;
-  border-color:  #ffe500;
-  background-color:  #ffe500;
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -42,7 +33,7 @@ h2 {
   font-family: "Sigmar One", sans-serif;
   text-align: left;
   color: #b20953;
- f ont-size: 1.875rem;
+  font-size: 1.875rem;
 }
 
 ul {
@@ -77,6 +68,7 @@ ul {
 .nav a:hover {
   background-color: #cc1465;
 }
+
 .nav .current {
   background-color: #b20953;
 }
@@ -97,6 +89,12 @@ article {
 footer {
   background-color: #ffe500;
   padding: .2em .5em .3em;
+}
+p {
+  text-align: left;
+  margin: 0;
+  padding-bottom: .75em;
+  color: #2f2d13;
 }
 
 footer p {
